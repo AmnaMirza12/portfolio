@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <style>
+		/* Set the navbar's position to fixed */
+		.navbar {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: #461111;
+			color: #fff;
+			padding: 5px;
+			z-index: 7999;
+		}
+		
+		/* Add some style to the links inside the navbar */
+		.navbar a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 12px;
+			margin-right: 12px;
+			padding: 8px;
+			border-radius: 5px;
+			float: right;
+		}
+		
+		/* Add a hover effect to the links inside the navbar */
+		.navbar a:hover {
+			background-color: #555;
+		}
+		
+		/* Add some padding to the body to make up for the fixed navbar */
+		body {
+			padding-top: 50px;
+		}
+        .footer {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background-color: #461111;
+			color: #fff;
+			padding: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		
+		/* Styling for the social media icons */
+		.social-media {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.social-media a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 20px;
+			margin-right: 10px;
+			transition: color 0.3s ease-in-out;
+		}
+		
+		.social-media a:hover {
+			color: #f2c84b;
+		}
+		
+		/* Styling for the ending salutations */
+		.ending-salutations {
+			font-size: 12px;
+			
+            margin-right: 20px;
+		}
+        
+        body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f2f2f2;
+		}
+		h1 {
+			font-size: 36px;
+			color: #333;
+			text-align: center;
+			margin-top: 50px;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: center;
+			margin-top: 50px;
+		}
+		.spot {
+			width: 400px;
+			height: 300px;
+			margin-bottom: 50px;
+			border-radius: 10px;
+			overflow: hidden;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			position: relative;
+		}
+		.spot img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: all 0.5s ease-in-out;
+		}
+		.spot:hover img {
+			transform: scale(1.1);
+		}
+		.spot .title {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: rgba(0,0,0,0.5);
+			color: #fff;
+			padding: 10px;
+			font-size: 24px;
+			font-weight: bold;
+			text-align: center;
+			text-transform: uppercase;
+		}
+	</style>
+<div class="navbar">
+    <a href="contact.html">Contact</a>
+    <a href="touristsites.html">Tourist Sites</a>
+    <a href="cities.html">Cherished Hubs</a>
+    <a href="valuedmentors.html">Mentors</a>
+    
+
+    <a href="index.html">Home</a>
+    
+</div>
+    <h1>Tourist Sites</h1>
+    <h1>Australia Tourist Spots</h1>
+	<div class="container">
+		<div class="spot">
+			<img src="pexels-mudassir-ali-1878293.jpg" alt="Sydney Opera House">
+			<div class="title">Sydney Opera House</div>
+		</div>
+		<div class="spot">
+			<img src="pexels-flo-dahm-1139040.jpg" alt="Great Barrier Reef">
+			<div class="title">Great Barrier Reef</div>
+		</div>
+		<div class="spot">
+			<img src="pexels-kate-branch-10015974.jpg" alt="Uluru">
+            
+			<div class="title">Uluru</div>
+            
+		</div>
+		<div class="spot">
+			<img src="pexels-lukas-kloeppel-4783869.jpg" alt="Twelve Apostles">
+			<div class="title">Twelve Apostles</div>
+		</div>
+	</div>
+    <footer class="footer">
+		<div class="social-media">
+			<a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+			<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+		</div>
+		<div class="ending-salutations">
+			<p>Thank you for visiting my website. &copy; 2023. All rights reserved .</p>
+		</div>
+	</footer>
+</body>
+</html>

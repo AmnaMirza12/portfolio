@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+   line-height: 1.8;
+   color: #595597;
+   font-size: 15px;
+   font-family: 'Merriweather', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: 700;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #004346;
+}
+
+.title-sm {
+   font-size: 16px;
+   letter-spacing: 1px;
+}
+
+a {
+   font-weight: 700;
+   transition: all 0.4s ease;
+   text-decoration: none;
+}
+
+
+img {
+   width: 100%;
+}
+
+small {
+   font-size: 12px;
+   letter-spacing: 2px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+section {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+a.navbar-brand {
+   font-size: 22px;
+   text-transform: uppercase;
+   color: #004346 !important;
+}
+
+.navbar .nav-link {
+   font-size: 12px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+.navbar {
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+   color: #559597;
+}
+
+
+
+		.navbar {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: #461111;
+			color: #fff;
+			padding: 5px;
+			z-index: 7999;
+		}
+		
+		
+		.navbar a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 12px;
+			margin-right: 12px;
+			padding: 8px;
+			border-radius: 5px;
+			float: right;
+		}
+		
+
+		.navbar a:hover {
+			background-color: #555;
+		}
+		
+		
+		body {
+			padding-top: 50px;
+		}
+	
+		/* Styling for the footer */
+		.footer {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background-color: #461111;
+			color: #fff;
+			padding: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		
+		/* Styling for the social media icons */
+		.social-media {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.social-media a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 20px;
+			margin-right: 10px;
+			transition: color 0.3s ease-in-out;
+		}
+		
+		.social-media a:hover {
+			color: #f2c84b;
+		}
+		
+		/* Styling for the ending salutations */
+		.ending-salutations {
+			font-size: 14px;
+			margin-right: 10px;
+		}
+
+

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <style>
+        html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+		/* Set the navbar's position to fixed */
+		.navbar {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: #461111;
+			color: #fff;
+			padding: 5px;
+			z-index: 7999;
+		}
+		
+		/* Add some style to the links inside the navbar */
+		.navbar a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 12px;
+			margin-right: 12px;
+			padding: 8px;
+			border-radius: 5px;
+			float: right;
+		}
+		
+		/* Add a hover effect to the links inside the navbar */
+		.navbar a:hover {
+			background-color: #555;
+		}
+		
+		/* Add some padding to the body to make up for the fixed navbar */
+		body {
+			padding-top: 50px;
+		}
+        .footer {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background-color: #461111;
+			color: #fff;
+			padding: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+            margin-top: 100px;
+		}
+		
+		/* Styling for the social media icons */
+		.social-media {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.social-media a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 20px;
+			margin-right: 10px;
+			transition: color 0.3s ease-in-out;
+		}
+		
+		.social-media a:hover {
+			color: #f2c84b;
+		}
+		
+		/* Styling for the ending salutations */
+		.ending-salutations {
+			font-size: 12px;
+			
+            margin-right: 20px;
+		}
+        
+        
+	</style>
+<div class="navbar">
+    <a href="contact.html">Contact</a>
+    <a href="touristsites.html">Tourist Sites</a>
+    <a href="cities.html">Cherished Hubs</a>
+    <a href="valuedmentors.html">Mentors</a>
+    
+
+    <a href="index.html">Home</a>
+    
+</div>
+    <H1>Favourite person</H1>
+    <br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images.jpg" alt="Jane" style="width:50%">
+      <div class="container padding">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button margin-bottom: 50px;"  >Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="istockphoto-510954317-612x612.jpg" alt="Mike" style="width: 60%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button margin-bottom: 50px;"  >Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="download.jpg" alt="John" style="width:auto">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button margin-bottom: 50px;">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer class="footer" style="margin-top: 50px;">
+		<div class="social-media">
+			<a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+			<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+		</div>
+		<div class="ending-salutations">
+			<p>Thank you for visiting my website. &copy; 2023. All rights reserved .</p>
+		</div>
+	</footer>
+</body>
+</html>
